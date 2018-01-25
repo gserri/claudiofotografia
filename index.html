@@ -17,6 +17,7 @@
 		<link href="css/style.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
 		<link rel="icon" href="favicon.ico">
+		
 		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 		<script src="js/ie-emulation-modes-warning.js"></script>
@@ -350,7 +351,19 @@
 						<h4 class="modal-title" id="Modal-label-1">Wedding Photography</h4>
 					</div>
 					<div class="modal-body">
-						<img src="images/demo/portfolio-1.jpg" alt="img01" class="img-responsive" />
+						<div id="myGallery" class="carousel slide" data-interval="false">
+							<div class="carousel-inner">
+								<div class="item active"> <img src="images/wedding1.jpg" alt="item0">
+								</div>
+								<div class="item"> <img src="images/wedding2.jpg" alt="item1">
+									
+								</div>
+								<div class="item"> <img src="images/wedding3.jpg" alt="item2">
+									
+								</div>
+							</div>
+							<a class="left carousel-control" href="#myGallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+						</div>
 						
 						<p>Affidatevi a noi, per il giorno più importante della vostra vita.</p>
 					</div>
@@ -411,6 +424,8 @@
 		<script src="js/owl.carousel.min.js"></script>
 		<script src="js/cbpAnimatedHeader.js"></script>
 		<script src="js/theme-scripts.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+		
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 		<script src="js/ie10-viewport-bug-workaround.js"></script>
 	</body>
