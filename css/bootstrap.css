@@ -6797,4 +6797,10 @@ button.close {
     display: none !important;
   }
 }
+h1 {
+    color: white;
+    font-size: 100px;
+    font-family: 'Parisienne', cursive;
+    padding-bottom: 64px;
+}
 /*# sourceMappingURL=bootstrap.css.map */
