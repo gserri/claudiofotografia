@@ -722,3 +722,11 @@ h1 {
     font-family: 'Parisienne', cursive;
     padding-bottom: 64px;
 }
+#carosell {
+    padding: 0px 0;
+}
+#sottoti{
+    color: white;
+    font-size: 40px;
+    font-family: 'Parisienne', cursive;
+}
